@@ -9,25 +9,31 @@ header{
     justify-content: space-between;
     font-size: 1rem;
     max-width: 1920px;
+    padding-top: 1rem;
 }
 
 header>div{
     display: flex;
     gap: 2rem;
-    padding: 1rem;
+    padding: 0 1rem 0 1rem;
     align-items: center;
+
+    & span{
+        padding: 1rem;
+    }
 }
 
 .header-right input{
     background-color: #0061ffFF;
     color: #fff;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 2rem;
     font-size: 1.25rem;
     border: none;
 }
 
 .logo{
     width: 10rem;
+    align-self: center;
 }
 
 
@@ -487,3 +493,60 @@ footer{
         padding: 3rem 0 0 0;
     }
 }
+
+
+/* Bonus Dropbox */
+/* #site_header span{
+    transition: all 0.3s ease 0s;
+    padding: 0;
+    border-bottom: 0;
+    opacity: 1;
+    font-size: 1rem;
+
+} */
+
+#site_header span{
+    transition: all 0.3s ease 0s;
+}
+
+.first-menuitem:hover{
+    border-bottom: 6px solid rgb(111, 8, 8);
+    opacity: 0.75;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.second-menuitem:hover{
+    border-bottom: 6px solid rgb(111, 8, 8);
+    opacity: 0.75;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.third-menuitem:hover{
+    border-bottom: 6px solid rgb(111, 8, 8);
+    opacity: 0.75;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.forth-menuitem:hover{
+    border-bottom: 6px solid rgb(111, 8, 8);
+    opacity: 0.75;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.fifth-menuitem:hover{
+    border-bottom: 6px solid rgb(111, 8, 8);
+    opacity: 0.75;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.sixth-menuitem:hover{
+    border-bottom: 6px solid rgb(111, 8, 8);
+    opacity: 0.75;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+
+
+
