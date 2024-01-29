@@ -496,15 +496,8 @@ footer{
 
 
 /* Bonus Dropbox */
-/* #site_header span{
-    transition: all 0.3s ease 0s;
-    padding: 0;
-    border-bottom: 0;
-    opacity: 1;
-    font-size: 1rem;
 
-} */
-
+ /* #region header menu effect */
 #site_header span{
     transition: all 0.3s ease 0s;
 }
@@ -545,7 +538,18 @@ footer{
     font-size: 1.25rem;
     cursor: pointer;
 }
+ /* #endregion header menu effect */
 
+header{
+    position: fixed;
+    background-color: #fff;
+    min-width: 1920px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.megatitle{
+    padding-top: 5rem;
+}
 
 
 
